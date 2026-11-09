@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/guild_form"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.6"
+        app:layout_constraintGuide_percent="0.55"
         />
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"

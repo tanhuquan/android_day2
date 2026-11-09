@@ -5,27 +5,30 @@
     android:padding="16dp"
     android:background="#77F0B5FA"
     >
+
     <ImageView
-        android:src="@drawable/img"
+        android:id="@+id/imgIcon"
+        android:src="@drawable/img_5"
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:scaleType="centerCrop"
         android:layout_gravity="center_vertical"
-
         />
 
     <TextView
+        android:id="@+id/txt1"
         android:text="name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_gravity="center"
-
         />
     <CheckBox
+        android:id="@+id/checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right|center_vertical"
-        android:checked="true"/>
+        android:checked="true"
+        />
 
 </FrameLayout>
