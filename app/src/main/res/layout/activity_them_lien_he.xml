@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemLienHe">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Them lien he moi"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#4CAF50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv1"
+        android:layout_marginTop="50sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten"
+        android:id="@+id/edt1"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        android:layout_margin="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap so dien thoai"
+        android:id="@+id/edt2"
+        app:layout_constraintTop_toBottomOf="@+id/edt1"
+        android:layout_margin="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap email"
+        android:id="@+id/edt3"
+        app:layout_constraintTop_toBottomOf="@+id/edt2"
+        android:layout_margin="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap dia chi"
+        android:id="@+id/edt4"
+        app:layout_constraintTop_toBottomOf="@+id/edt3"
+        android:layout_margin="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gioi tinh"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/tv2"
+        app:layout_constraintTop_toBottomOf="@+id/edt4"
+        android:layout_margin="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="Nam"
+            android:layout_marginEnd="15sp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="Nu"
+            android:layout_marginEnd="15sp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:text="Khac"
+            />
+    </RadioGroup>
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="Them lien he"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintTop_toBottomOf="@+id/rg1"
+        android:layout_margin="20sp"
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
